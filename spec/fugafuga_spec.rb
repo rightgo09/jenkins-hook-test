@@ -8,5 +8,8 @@ describe "Fuga" do
     it "should fuga?" do
       "Fuga".should eql "Fuga"
     end
+    it "should fuga?" do
+      "FugA".should eql "FugA"
+    end
   end
 end
