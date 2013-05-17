@@ -17,5 +17,8 @@ describe "Fuga" do
     it "should fuga?" do
       "FUGA".should eql "FUGA"
     end
+    it "should fuga?" do
+      "fUGA".should eql "fUGA"
+    end
   end
 end
