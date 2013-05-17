@@ -11,5 +11,8 @@ describe "Hoge" do
     it "should hoge?" do
       "HogE".should eql "HogE"
     end
+    it "should hoge?" do
+      "HoGE".should eql "HoGE"
+    end
   end
 end
